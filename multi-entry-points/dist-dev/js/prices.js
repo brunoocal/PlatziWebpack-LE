@@ -81,19 +81,19 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/js/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/js/prices.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/js/index.js":
-/*!*************************!*\
-  !*** ./src/js/index.js ***!
-  \*************************/
+/***/ "./src/js/prices.js":
+/*!**************************!*\
+  !*** ./src/js/prices.js ***!
+  \**************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.log(\"Hola mundo desde webpack!\");\n\n//# sourceURL=webpack:///./src/js/index.js?");
+eval("console.log(\"Hola mundo desde webpack! PRICES\");\n\n//# sourceURL=webpack:///./src/js/prices.js?");
 
 /***/ })
 

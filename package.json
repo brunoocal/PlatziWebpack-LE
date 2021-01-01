@@ -7,7 +7,9 @@
     "build": "webpack --entry ./index.js --output ./bundle.js --mode development",
     "build:production": "webpack --mode production",
     "build:external": "webpack --config ./external/webpack.config.js",
-    "build:external:dev": "webpack --config ./external/webpackdev.config.js"
+    "build:external:dev": "webpack --config ./external/webpackdev.config.js",
+    "build:multi-e": "webpack --config ./multi-entry-points/webpack.config.js",
+    "build:multi-e:dev": "webpack --config ./multi-entry-points/webpackdev.config.js"
   },
   "repository": {
     "type": "git",
