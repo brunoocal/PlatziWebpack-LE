@@ -9,7 +9,9 @@
     "build:external": "webpack --config ./external/webpack.config.js",
     "build:external:dev": "webpack --config ./external/webpackdev.config.js",
     "build:multi-e": "webpack --config ./multi-entry-points/webpack.config.js",
-    "build:multi-e:dev": "webpack --config ./multi-entry-points/webpackdev.config.js"
+    "build:multi-e:dev": "webpack --config ./multi-entry-points/webpackdev.config.js",
+    "build:css": "webpack --config ./css-style-loader/webpack.config.js",
+    "build:css:dev": "webpack --config ./css-style-loader/webpackdev.config.js"
   },
   "repository": {
     "type": "git",
@@ -29,6 +31,8 @@
   "homepage": "https://github.com/brunoocal/PlatziWebpack-LE#readme",
   "dependencies": {},
   "devDependencies": {
+    "css-loader": "2.1.1",
+    "style-loader": "0.23.1",
     "webpack": "4.32.2",
     "webpack-cli": "3.3.2"
   }
