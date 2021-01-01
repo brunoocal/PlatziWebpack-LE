@@ -1,0 +1,33 @@
+{
+  "name": "platziwebpack-le",
+  "version": "1.0.0",
+  "description": "Curso de webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --entry ./index.js --output ./bundle.js --mode development",
+    "build:production": "webpack --mode production",
+    "build:external": "webpack --config ./external/webpack.config.js",
+    "build:external:dev": "webpack --config ./external/webpackdev.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunoocal/PlatziWebpack-LE.git"
+  },
+  "keywords": [
+    "javascript",
+    "webpack",
+    "platzi",
+    "curso"
+  ],
+  "author": "@Brunoocal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brunoocal/PlatziWebpack-LE/issues"
+  },
+  "homepage": "https://github.com/brunoocal/PlatziWebpack-LE#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "4.32.2",
+    "webpack-cli": "3.3.2"
+  }
+}
