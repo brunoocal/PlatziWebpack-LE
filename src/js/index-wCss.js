@@ -1,3 +1,3 @@
 import '../css/index.css'
 
-document.body.innerHTML = '<p>HOLA MUNDO DESDE WEBPACK!</p>';
+document.body.innerHTML = '<p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!</p>';
