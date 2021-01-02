@@ -1,3 +1,10 @@
 import '../css/index.css'
+import text from './text'
 
-document.body.innerHTML = '<p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!</p>';
+text()
+
+if(module.hot){
+    module.hot.accept('./text.js', function(){
+        text();
+    })
+}
