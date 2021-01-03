@@ -1,10 +1,7 @@
 import '../css/index.css'
-import text from './text'
 
-text()
+import React from 'react';
+import {render} from 'react-dom'
+import App from './component/app'
 
-if(module.hot){
-    module.hot.accept('./text.js', function(){
-        text();
-    })
-}
+render(<App />, document.getElementById('container'))

@@ -15,7 +15,8 @@
     "build:cssFile": "webpack --config ./plugins/webpack.config.js",
     "build:cssFile:dev": "webpack --config ./plugins/webpackdev.config.js",
     "build:dev-server": "webpack-dev-server --config ./dev-server/webpackdev.config.js",
-    "build:babel": "webpack-dev-server --config ./babel/webpackdev.config.js"
+    "build:babel": "webpack --config ./babel/webpackdev.config.js",
+    "build:babReact": "webpack --config ./babelReact/webpackdev.config.js"
   },
   "repository": {
     "type": "git",
@@ -33,10 +34,15 @@
     "url": "https://github.com/brunoocal/PlatziWebpack-LE/issues"
   },
   "homepage": "https://github.com/brunoocal/PlatziWebpack-LE#readme",
-  "dependencies": {},
+  "dependencies": {
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
+  },
   "devDependencies": {
     "@babel/core": "7.4.5",
+    "@babel/plugin-transform-react-jsx": "^7.12.12",
     "@babel/preset-env": "7.4.5",
+    "@babel/preset-react": "7.0.0",
     "babel-loader": "8.0.6",
     "css-loader": "2.1.1",
     "html-webpack-plugin": "3.2.0",

@@ -11,9 +11,6 @@ module.exports = {
         path: path.resolve(__dirname, 'dist-dev'),
         filename: 'js/[name].js'
     },
-    devServer: {
-        hot: true
-    },
     module: {
         rules: [
             {
@@ -31,9 +28,8 @@ module.exports = {
         ]
     },
     plugins: [
-        new webpack.HotModuleReplacementPlugin(),
         new HtmlWebpackPlugin({
-            title: 'Dev server',
+            title: 'Babel',
             template: path.resolve(__dirname, '../index.html')
         })
     ]
